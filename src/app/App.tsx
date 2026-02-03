@@ -2,7 +2,7 @@ import { Mail, Phone, MapPin, Play, Award, Briefcase, GraduationCap, Code } from
 
 export default function App() {
   const skills = [
-    { category: 'Video Editing', tools: ['Adobe Premiere Pro', 'Final Cut Pro', 'DaVinci Resolve'] },
+    { category: 'Video Editing', tools: ['Adobe Premiere Pro', 'Cap Cut', 'DaVinci Resolve'] },
     { category: 'Motion Graphics', tools: ['After Effects', 'Blender'] },
     { category: 'Post-Production', tools: ['Color Grading & Correction', 'Audio Editing & Mixing'] },
     { category: 'Content Creation', tools: ['Storyboarding & Script Interpretation', 'Social Media Content'] }
@@ -10,32 +10,64 @@ export default function App() {
 
   const experiences = [
     {
+      title: 'Video Editor , Content creaator',
+      company: 'Self Employed',
+      location: 'Addis Ababa',
+      period: 'jul 2023 - Present',
+      responsibilities: [
+        'Edited  videos for my channel MUSIKANA.',
+        'Streaming (Amharic)lyrics videos on YouTube and other social media platforms.',
+        'creat visually appealing content to engage audience.'
+      ]
+      // when clickingg on musikana it should open the youtube channel
+      // it would be nice to have smple vidoes from the cannel here too
+    },
+    {
       title: 'Video Editor',
       company: 'Freelance',
       location: 'Addis Ababa',
-      period: 'Jan 2021 - Present',
+      period: 'Jun 2024 - Present',
       responsibilities: [
-        'Edited promotional and social media videos for local businesses and NGOs.',
-        'Created engaging video content for YouTube and Instagram, increasing client engagement by 35%.',
-        'Collaborated with clients to develop creative concepts and ensure final videos met brand standards.'
+        'Edit tiktok videos for various local(Ethiopian)clients,',
+        'Managed raw footage organization and helped with video shooting.',
+        'created content and writing scripts for clients.'
       ]
+      //same as above if possible haveing the social media links of all of the clients listed and make tehm redirect to there pages
+      // also haveing sample videos 
     },
     {
-      title: 'Assistant Video Editor',
-      company: 'XYZ Media',
-      location: 'Addis Ababa',
-      period: 'Jun 2019 - Dec 2020',
+      title: 'Promotional Video Editor',
+      company: 'Blue Sky Propeies',
+      location: 'Addis Ababa, Ethiopia',
+      period: 'Jun 2025 - Nov 2025',
       responsibilities: [
-        'Assisted in post-production editing for documentaries and corporate videos.',
-        'Managed raw footage organization and basic color correction.',
-        'Supported lead editors with motion graphics and audio enhancements.'
+        'Edit promotional videos showcasing real estate properties.',
+        'write scripts for the videos',
+        'color grading and correction',
+        'audio editing and mixing'
       ]
+      //same as above if possible haveing the social media links of all of the clients listed and make tehm redirect to there pages
+      // also haveing sample videos 
+    },
+    {
+      title: 'Video Editor',
+      company: '4 Kilo Gbi Gubae',
+      location: 'Addis Ababa, Ethiopia',
+      period: 'Dec 2025 - present',
+      responsibilities: [
+        'Edit different types of videos for teh channel',
+        'write scripts for the videos',
+        'color grading and correction',
+        'audio editing and mixing'
+      ]
+      //same as above if possible haveing the social media links of all of the clients listed and make tehm redirect to there pages
+      // also haveing sample videos 
     }
   ];
 
   const projects = [
     {
-      title: 'Ethiopian Tourism Promo',
+      title: 'Promotional Video Editor',
       description: 'Edited a 3-minute promotional video showcasing Ethiopia\'s tourist attractions.',
       duration: '3 min',
       image: 'https://images.unsplash.com/photo-1573403092240-26095e118918?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxldGhpb3BpYW4lMjB0b3VyaXNtJTIwbGFuZHNjYXBlJTIwbW91bnRhaW5zfGVufDF8fHx8MTc3MDA0MTM2Mnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral'
@@ -71,13 +103,13 @@ export default function App() {
           <h1 className="text-6xl md:text-8xl mb-4 text-white tracking-tight">Abiy Ketema</h1>
           <p className="text-2xl md:text-3xl text-zinc-300 mb-8">Video Editor & Creative Storyteller</p>
           <div className="flex flex-wrap justify-center gap-6 text-zinc-400">
-            <a href="mailto:abiy.ketema@example.com" className="flex items-center gap-2 hover:text-white transition-colors">
+            <a href="mailto:abiyketema21@gmail.com" className="flex items-center gap-2 hover:text-white transition-colors">
               <Mail className="w-5 h-5" />
-              <span>abiy.ketema@example.com</span>
+              <span>abiyketema21@gmail</span>
             </a>
-            <a href="tel:+2519XXXXXXXX" className="flex items-center gap-2 hover:text-white transition-colors">
+            <a href="tel:+251934681880" className="flex items-center gap-2 hover:text-white transition-colors">
               <Phone className="w-5 h-5" />
-              <span>+251-9XXXXXXXX</span>
+              <span>+251-934681880</span>
             </a>
             <div className="flex items-center gap-2">
               <MapPin className="w-5 h-5" />
@@ -95,7 +127,7 @@ export default function App() {
             <h2 className="text-4xl text-white">About Me</h2>
           </div>
           <p className="text-xl text-zinc-300 leading-relaxed">
-            Creative and detail-oriented Video Editor with 3+ years of experience in editing high-quality videos for clients across social media, corporate, and entertainment platforms. Skilled in storytelling, motion graphics, and post-production techniques, with a passion for delivering visually compelling content.
+            Creative and detail-oriented Video Editor with 3+ years of experience in editing high-quality videos for clients across social media, corporate, and entertainment platforms. Skilled in storytelling, motion graphics, and post-production techniques, with a passion for delivering visually compelling content. I also have a YouTube channel of my own that has over 8000 subs.
           </p>
         </div>
       </section>
