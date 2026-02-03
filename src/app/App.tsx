@@ -111,10 +111,10 @@ export default function App() {
               <Phone className="w-5 h-5" />
               <span>+251-934681880</span>
             </a>
-            <div className="flex items-center gap-2">
+            <a href = "https://www.google.com/maps/search/Ethiopia%2C+Addis+Ababa%2C+0000%2C+Ethiopia" className="flex items-center gap-2 hover:text-white transition-colors">
               <MapPin className="w-5 h-5" />
               <span>Addis Ababa, Ethiopia</span>
-            </div>
+            </a>
           </div>
         </div>
       </header>
